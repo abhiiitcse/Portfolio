@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'resume/base.html' %}
 {% load static %}
 {% block content %}
 	<!-- Social -->
@@ -19,7 +19,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-2 col-xs-12">
 							<div class="logo">
-								<a href="index.html"><img src="{% static 'img/nnn.png' %}" alt="logo.png"></a>
+								<a href="index.html"><img src="{% static 'resume/img/nnn.png' %}" alt="logo.png"></a>
 							</div>
 						</div>
 						<div class="col-md-9 col-sm-10 col-xs-12">
@@ -27,14 +27,14 @@
 							<nav class="navbar navbar-default">
 								<div class="collapse navbar-collapse">
 									<ul id="nav" class="nav navbar-nav">
-										<li class="current"><a href="#slider">Welcome</a></li>
-										<li><a href="#about">About Me</a></li>
-										<li><a href="#service">My Service</a></li>
-										<li><a href="#skill">Skill</a></li>
-										<li><a href="#story">Story</a></li>
-										<li><a href="#latest-works">Portfolio</a></li>
-										<li><a href="#blog">Blog</a></li>
-										<li><a href="#contact">Contact</a></li>
+										<li class="nav-item"><a href="#slider">Welcome</a></li>
+										<li class="nav-item"><a href="#about">About Me</a></li>
+										<li class="nav-item"><a href="#service">My Service</a></li>
+										<li class="nav-item"><a href="#skill">Skill</a></li>
+										<li class="nav-item"><a href="#story">Story</a></li>
+										<li class="nav-item"><a href="#latest-works">Portfolio</a></li>
+										<li class="nav-item"><a href="#blog">Blog</a></li>
+										<li class="nav-item"><a href="#contact">Contact</a></li>
 									</ul>
 								</div> 
 							</nav>
@@ -47,7 +47,7 @@
 		<!-- End Header Area -->
 		
 		<!-- Slider Area -->
-		<section id="slider" class="slider" style="background-image:url('{% static 'img/slider.jpg' %}')">
+		<section id="slider" class="slider" style="background-image:url('{% static 'resume/img/slider.jpg' %}')">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 col-sm-12 col-xs-12">
@@ -68,8 +68,8 @@
 		<!-- Start about -->
 		<section id="about" class="about">
 			<div class="container">
-				<div class="row">
-					<div class="about-content">
+				<div class="about-content">
+					<div class="row">
 						<div class="col-md-2 col-sm-2 col-xs-12">
 							<div class="section-title">
 								<h2>About <span>Me</span></h2>
@@ -95,7 +95,7 @@
 						</div>
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="image">
-								<img src="{% static 'img/about.jpg' %}" alt="#">
+								<img src="{% static 'resume/img/about.jpg' %}" alt="#">
 								<a href="https://www.youtube.com/watch?v=45ETZ1xvHS0" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a>
 							</div>
 						</div>
@@ -330,7 +330,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12 print identity">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="{% static 'img/pf1.jpg' %}" alt="#">
+								<img src="{% static 'resume/img/pf1.jpg' %}" alt="#">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">WEB DEVELOPMENT</a></h4>
 									<div class="link"></div>
@@ -340,7 +340,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12 wordpress branding">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="{% static 'img/pf2.jpg' %}" alt="">
+								<img src="{% static 'resume/img/pf2.jpg' %}" alt="">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">Wordpress</a></h4>
 									<div class="link"></div>
@@ -350,7 +350,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12 web">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="{% static 'img/pf3.jpg' %}" alt="">
+								<img src="{% static 'resume/img/pf3.jpg' %}" alt="">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">App Development</a></h4>
 									<div class="link"></div>
@@ -360,7 +360,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12  wordpress">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="{% static 'img/pf4.jpg' %}" alt="">
+								<img src="{% static 'resume/img/pf4.jpg' %}" alt="">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">WEB DEVELOPMENT</a></h4>
 									<div class="link"></div>
@@ -370,7 +370,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12  branding">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="img/pf5.jpg" alt="">
+								<img src="{% static 'resume/img/pf5.jpg' %}" alt="">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">Photography</a></h4>
 									<div class="link"></div>
@@ -380,7 +380,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12  branding">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="img/pf6.jpg" alt="">
+								<img src="{% static 'resume/img/pf6.jpg' %}" alt="">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">SEO Marketing</a></h4>
 									<div class="link"></div>
@@ -390,7 +390,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12 web print">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="img/pf7.jpg" alt="">
+								<img src="{% static 'resume/img/pf7.jpg' %}" alt="">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">Photography</a></h4>
 									<div class="link"></div>
@@ -400,7 +400,7 @@
 						<div class="col-md-4 col-sm-4 col-xs-12 web print">
 							<!-- single-work -->
 							<div class="single-work">
-								<img src="img/pf8.jpg" alt="">
+								<img src="{% static 'resume/img/pf8.jpg' %}" alt="">
 								<div class="works-hover">
 									<h4><a href="pf-2colum.html">App Development</a></h4>
 									<div class="link"><a href="portfolio-single.html"></a></div>
@@ -437,7 +437,7 @@
 								<!--End single-testimonial -->
 								<!--Start single-testimonial -->
 								<div class="single-testimonial">
-									<img src="img/author2.jpg" alt="#">
+									<img src="{% static 'resume/img/author2.jpg' %}" alt="#">
 									<p><i class="fa fa-quote-left"></i><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </i> </p>
 									<div class="star">
 										<i class="fa fa-star"></i>
@@ -451,7 +451,7 @@
 								<!--End single-testimonial -->
 								<!-- Single Testimonial -->
 								<div class="single-testimonial">
-									<img src="img/author1.jpg" alt="#">
+									<img src="{% static 'resume/img/author1.jpg' %}" alt="#">
 									<p><i class="fa fa-quote-left"></i><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </i></p>
 									<div class="star">
 										<i class="fa fa-star"></i>
@@ -492,7 +492,7 @@
 									<span>Mar</span> 
 									<span>2018</span> 
 								</div>
-								<img src="img/blog1.jpg" alt="#">
+								<img src="{% static 'resume/img/blog1.jpg' %}" alt="#">
 								<div class="news-view"> 
 									<span><i class="fa fa-comments"></i>25 comments</span>
 									<span><i class="fa fa-eye"></i>10k views</span>
@@ -514,7 +514,7 @@
 									<span>Mar</span> 
 									<span>2018</span> 
 								</div>
-								<img src="img/blog2.jpg" alt="#">
+								<img src="{% static 'resume/img/blog2.jpg' %}" alt="#">
 								<div class="news-view"> 
 									<span><i class="fa fa-comments"></i>25 comments</span>
 									<span><i class="fa fa-eye"></i>10k views</span>
@@ -536,7 +536,7 @@
 									<span>Feb</span> 
 									<span>2018</span> 
 								</div>
-								<img src="img/blog3.jpg" alt="#">
+								<img src="{% static 'resume/img/blog3.jpg' %}" alt="#">
 								<div class="news-view"> 
 									<span><i class="fa fa-comments"></i>25 comments</span>
 									<span><i class="fa fa-eye"></i>10k views</span>
@@ -621,25 +621,25 @@
 					<div class="col-md-12">
 						<div class="owl-carousel clients-slider">
 							<div class="single-clients">
-								<img src="img/brand-1.png" alt="#">
+								<img src="{% static 'resume/img/brand-1.png' %}" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/brand-2.png" alt="#">
+								<img src="{% static 'resume/img/brand-2.png' %}" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/brand-3.png" alt="#">
+								<img src="{% static 'resume/img/brand-3.png' %}" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/brand-4.png" alt="#">
+								<img src="{% static 'resume/img/brand-4.png' %}" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/brand-5.png" alt="#">
+								<img src="{% static 'resume/img/brand-5.png' %}" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/brand-6.png" alt="#">
+								<img src="{% static 'resume/img/brand-6.png' %}" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/brand-1.png" alt="#">
+								<img src="{% static 'resume/img/brand-1.png' %}" alt="#">
 							</div>
 						</div>
 					</div>
@@ -655,7 +655,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="logo">
-								<img src="img/nnn.png" alt="#">
+								<img src="{% static 'resume/img/nnn.png' %}" alt="#">
 							</div>
 							<!-- Social -->
 							<ul class="social">
