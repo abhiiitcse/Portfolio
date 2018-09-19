@@ -60,10 +60,8 @@ a,button{
 	position:fixed;
 	top:50%;
 	left:0;
-	text-align:center;
 	margin-top:-80px;
 	z-index:999;
-	text-decoration: none;
 }
 .social-body ul li{
 	display:block;
