@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<!-- Social -->
+	<div class="social-body">
+		<ul>
+			<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+			<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+		</ul>
+	</div>
+	<!--/ End Social -->
+
+	<!-- Header Area -->
+	<header id="header" class="header">
+		<div class="header-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-2 col-xs-12">
+						<div class="logo">
+							<a href="index.html"><img src="{% static 'img/nnn.png' %}" alt="logo.png"></a>
+						</div>
+					</div>
+					<div class="col-md-9 col-sm-10 col-xs-12">
+						<nav class="navbar navbar-default">
+							<div class="navbar-collapse">
+								<ul id="nav" class="nav navbar-nav navbar-expand-sm">
+									<li class="nav-item active"><a href="#slider">Welcome</a></li>
+									<li class="nav-item"><a href="#about">About Me</a></li>
+									<li class="nav-item"><a href="#service">My Service</a></li>
+									<li class="nav-item"><a href="#skill">Skill</a></li>
+									<li class="nav-item"><a href="#story">Story</a></li>
+									<li class="nav-item"><a href="#latest-works">Portfolio</a></li>
+									<li class="nav-item"><a href="#blog">Blog</a></li>
+									<li class="nav-item"><a href="#contact">Contact</a></li>
+								</ul>
+							</div> 
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Header Inner -->
+	</header>
+	<!-- End Header Area -->
+
+{% endblock %}
