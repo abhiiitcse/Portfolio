@@ -1,0 +1,592 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 17:24:11 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 10:51:59
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/../venv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 17:34:04 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 10:51:59
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/../venv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 17:35:33 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 10:51:59
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/../venv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 17:43:50 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/../venv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 17:47:27 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/../venv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:02:22 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:05:22 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:06:24 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:09:56 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:11:51 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:16:06 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:19:21 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:19:37 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:20:21 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:24:51 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:25:28 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /tmp/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:27:35 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:29:57 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:33:02 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:34:50 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:37:11 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:40:38 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+!!! Python Home is not a directory: /Users/abhimanyu/Portfolio/Portfolio/myvenv !!!
+Set PythonHome to /Users/abhimanyu/Portfolio/Portfolio/myvenv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fff8994e380 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Sep 22 18:41:38 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 22 September 2018 12:09:37
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.6.4 (default, Mar 22 2018, 13:54:22)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]
+PEP 405 virtualenv detected: /Users/abhimanyu/Portfolio/myvenv
+Set PythonHome to /Users/abhimanyu/Portfolio/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc91102ba00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc91102ba00 pid: 7745 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7745)
+spawned uWSGI worker 1 (pid: 7746, cores: 1)
+spawned uWSGI worker 2 (pid: 7747, cores: 1)
+spawned uWSGI worker 3 (pid: 7748, cores: 1)
+spawned uWSGI worker 4 (pid: 7749, cores: 1)
+spawned uWSGI worker 5 (pid: 7750, cores: 1)
+spawned uWSGI worker 6 (pid: 7751, cores: 1)
+spawned uWSGI worker 7 (pid: 7752, cores: 1)
+spawned uWSGI worker 8 (pid: 7753, cores: 1)
+spawned uWSGI worker 9 (pid: 7754, cores: 1)
+spawned uWSGI worker 10 (pid: 7755, cores: 1)
+[pid: 7754|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 864 bytes} [Sat Sep 22 13:11:47 2018] GET / => generated 14804 bytes in 100 msecs (HTTP/1.1 200) 3 headers in 111 bytes (4 switches on core 0)
+[pid: 7754|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 865 bytes} [Sat Sep 22 13:11:47 2018] GET /favicon.ico => generated 85 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
