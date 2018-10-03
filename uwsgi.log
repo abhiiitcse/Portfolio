@@ -590,3 +590,627 @@ spawned uWSGI worker 9 (pid: 7754, cores: 1)
 spawned uWSGI worker 10 (pid: 7755, cores: 1)
 [pid: 7754|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 864 bytes} [Sat Sep 22 13:11:47 2018] GET / => generated 14804 bytes in 100 msecs (HTTP/1.1 200) 3 headers in 111 bytes (4 switches on core 0)
 [pid: 7754|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 865 bytes} [Sat Sep 22 13:11:47 2018] GET /favicon.ico => generated 85 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Oct  2 11:10:18 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 02 October 2018 05:34:35
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.7.0 (default, Sep 18 2018, 18:47:22)  [Clang 9.1.0 (clang-902.0.39.2)]
+PEP 405 virtualenv detected: /Users/abhimanyu/Portfolio/myvenv
+Set PythonHome to /Users/abhimanyu/Portfolio/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8b0d701c60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8b0d701c60 pid: 65417 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 65417)
+spawned uWSGI worker 1 (pid: 65418, cores: 1)
+spawned uWSGI worker 2 (pid: 65419, cores: 1)
+spawned uWSGI worker 3 (pid: 65420, cores: 1)
+spawned uWSGI worker 4 (pid: 65421, cores: 1)
+spawned uWSGI worker 5 (pid: 65422, cores: 1)
+spawned uWSGI worker 6 (pid: 65423, cores: 1)
+spawned uWSGI worker 7 (pid: 65424, cores: 1)
+spawned uWSGI worker 8 (pid: 65425, cores: 1)
+spawned uWSGI worker 9 (pid: 65426, cores: 1)
+spawned uWSGI worker 10 (pid: 65427, cores: 1)
+[pid: 65427|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 833 bytes} [Tue Oct  2 05:40:29 2018] GET / => generated 14804 bytes in 85 msecs (HTTP/1.1 200) 3 headers in 111 bytes (3 switches on core 0)
+[pid: 65427|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 879 bytes} [Tue Oct  2 05:47:49 2018] GET /blog => generated 3043 bytes in 105 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Internal Server Error: /blog
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 79, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 6, in <module>
+    path('blog/<int:pk>/', view.blog_detail, name='blog_detail'),
+NameError: name 'view' is not defined
+[pid: 65426|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 872 bytes} [Tue Oct  2 05:50:00 2018] GET /blog => generated 183130 bytes in 205 msecs (HTTP/1.1 500) 1 headers in 63 bytes (24 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 6, in <module>
+    path('blog/<int:pk>/', view.blog_detail, name='blog_detail'),
+NameError: name 'view' is not defined
+[pid: 65425|app: 0|req: 1/4] 127.0.0.1 () {42 vars in 833 bytes} [Tue Oct  2 05:50:04 2018] GET / => generated 167957 bytes in 137 msecs (HTTP/1.1 500) 4 headers in 130 bytes (22 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 6, in <module>
+    path('blog/<int:pk>/', view.blog_detail, name='blog_detail'),
+NameError: name 'view' is not defined
+[pid: 65426|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 864 bytes} [Tue Oct  2 05:51:45 2018] GET / => generated 168092 bytes in 124 msecs (HTTP/1.1 500) 4 headers in 130 bytes (22 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 6, in <module>
+    path('<int:pk>/', view.blog_detail, name='blog_detail'),
+NameError: name 'view' is not defined
+[pid: 65426|app: 0|req: 3/6] 127.0.0.1 () {44 vars in 864 bytes} [Tue Oct  2 05:51:57 2018] GET / => generated 168082 bytes in 91 msecs (HTTP/1.1 500) 4 headers in 130 bytes (21 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 2, in <module>
+    from . import views
+  File "./blog/views.py", line 11
+    return render(request, 'blog/blog_detail.html', {'post': post})
+                                                                  ^
+IndentationError: unindent does not match any outer indentation level
+[pid: 65424|app: 0|req: 1/7] 127.0.0.1 () {44 vars in 864 bytes} [Tue Oct  2 05:52:15 2018] GET / => generated 168118 bytes in 163 msecs (HTTP/1.1 500) 4 headers in 130 bytes (22 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 2, in <module>
+    from . import views
+  File "./blog/views.py", line 11
+    return render(request, 'blog/blog_detail.html', {'post': post})
+                                                                  ^
+IndentationError: unindent does not match any outer indentation level
+[pid: 65423|app: 0|req: 1/8] 127.0.0.1 () {44 vars in 864 bytes} [Tue Oct  2 05:52:31 2018] GET / => generated 168118 bytes in 140 msecs (HTTP/1.1 500) 4 headers in 130 bytes (20 switches on core 0)
+[pid: 65423|app: 0|req: 2/9] 127.0.0.1 () {44 vars in 864 bytes} [Tue Oct  2 05:52:46 2018] GET / => generated 14804 bytes in 58 msecs (HTTP/1.1 200) 3 headers in 111 bytes (3 switches on core 0)
+Internal Server Error: /blog
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 79, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 6, in <module>
+    path('blog/<int:pk>/', views.blog_detail, name='blog_detail'),
+AttributeError: module 'blog.views' has no attribute 'blog_detail'
+[pid: 65425|app: 0|req: 2/10] 127.0.0.1 () {44 vars in 879 bytes} [Tue Oct  2 05:52:48 2018] GET /blog => generated 183297 bytes in 124 msecs (HTTP/1.1 500) 1 headers in 63 bytes (23 switches on core 0)
+Internal Server Error: /blog
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 79, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 6, in <module>
+    path('blog/<int:pk>/', views.blog_detail, name='blog_detail'),
+AttributeError: module 'blog.views' has no attribute 'blog_detail'
+[pid: 65426|app: 0|req: 4/11] 127.0.0.1 () {44 vars in 872 bytes} [Tue Oct  2 05:54:04 2018] GET /blog => generated 183290 bytes in 193 msecs (HTTP/1.1 500) 1 headers in 63 bytes (24 switches on core 0)
+Internal Server Error: /blog
+Traceback (most recent call last):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/middleware/common.py", line 79, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 157, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 498, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 540, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./mysite/urls.py", line 21, in <module>
+    path('',include('resume.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./resume/urls.py", line 6, in <module>
+    path('blog',include('blog.urls')),
+  File "/Users/abhimanyu/Portfolio/myvenv/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./blog/urls.py", line 6, in <module>
+    path('blog/<int:pk>/', views.blog_detail, name='blog_detail'),
+AttributeError: module 'blog.views' has no attribute 'blog_detail'
+[pid: 65426|app: 0|req: 5/12] 127.0.0.1 () {44 vars in 872 bytes} [Tue Oct  2 05:55:30 2018] GET /blog => generated 183290 bytes in 169 msecs (HTTP/1.1 500) 1 headers in 63 bytes (23 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 10 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+unlink(): No such file or directory [core/uwsgi.c line 1614]
+unlink(): No such file or directory [core/uwsgi.c line 1659]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Oct  2 11:25:52 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 02 October 2018 05:34:35
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64
+nodename: abhi
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/abhimanyu/Portfolio
+writing pidfile to /Users/abhimanyu/Portfolio/mysite.pid
+detected binary path: /Users/abhimanyu/Portfolio/myvenv/bin/uwsgi
+chdir() to /Users/abhimanyu/Portfolio
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/abhimanyu/Portfolio/mysite.sock fd 3
+Python version: 3.7.0 (default, Sep 18 2018, 18:47:22)  [Clang 9.1.0 (clang-902.0.39.2)]
+PEP 405 virtualenv detected: /Users/abhimanyu/Portfolio/myvenv
+Set PythonHome to /Users/abhimanyu/Portfolio/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8279d066e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8279d066e0 pid: 65625 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 65625)
+spawned uWSGI worker 1 (pid: 65626, cores: 1)
+spawned uWSGI worker 2 (pid: 65627, cores: 1)
+spawned uWSGI worker 3 (pid: 65628, cores: 1)
+spawned uWSGI worker 4 (pid: 65629, cores: 1)
+spawned uWSGI worker 5 (pid: 65630, cores: 1)
+spawned uWSGI worker 6 (pid: 65631, cores: 1)
+spawned uWSGI worker 7 (pid: 65632, cores: 1)
+spawned uWSGI worker 8 (pid: 65633, cores: 1)
+spawned uWSGI worker 9 (pid: 65634, cores: 1)
+spawned uWSGI worker 10 (pid: 65635, cores: 1)
+[pid: 65634|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 872 bytes} [Tue Oct  2 05:55:55 2018] GET /blog => generated 3055 bytes in 95 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 65634|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 883 bytes} [Tue Oct  2 05:55:58 2018] GET /blog => generated 3055 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 65631|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 897 bytes} [Tue Oct  2 05:55:59 2018] GET /blogblog/1/ => generated 0 bytes in 52 msecs (HTTP/1.1 200) 3 headers in 107 bytes (2 switches on core 0)
+[pid: 65634|app: 0|req: 3/4] 127.0.0.1 () {44 vars in 872 bytes} [Tue Oct  2 05:56:10 2018] GET /blog => generated 3055 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 65634|app: 0|req: 4/5] 127.0.0.1 () {44 vars in 883 bytes} [Tue Oct  2 05:56:12 2018] GET /blog => generated 3055 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+Not Found: /blogblog/1/
+[pid: 65633|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 897 bytes} [Tue Oct  2 05:56:13 2018] GET /blogblog/1/ => generated 2582 bytes in 48 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 10 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+unlink(): No such file or directory [core/uwsgi.c line 1614]
+unlink(): No such file or directory [core/uwsgi.c line 1659]

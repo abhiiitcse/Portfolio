@@ -1,23 +1,14 @@
 {% extends 'blog/base.html' %}
 {% block content %}
-
-<div class="container-fluid p-0">
-	<ul>
-	{% for post in posts %}
-	
-		<li>
-
-	<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+<ul>
+    {% for post in posts %}
+    <li>
         <div class="my-auto">
-            <h1 class="mb-0"><a href="">{{ post.title }}</a>
+            <h1 class="mb-0" style="font-size:30px;"><a href="{% url 'blog_detail' pk=post.pk %}">{{ post.title }}</a>
             </h1>
-            <div class="subheading mb-5">
-            	{{ post.text|linebreaksbr }}
-            </div>
         </div>
-    </section>
     </li>
-	{% endfor %}
+    {% endfor %}
 </ul>
 
 {% endblock %}

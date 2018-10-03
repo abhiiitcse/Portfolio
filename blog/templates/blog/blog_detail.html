@@ -1,0 +1,7 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+	{% if post.pk == 1 %}
+		{% include 'blog/blog1.html'  %}
+	{% endif %}
+{% endblock %}
